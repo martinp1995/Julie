@@ -1,7 +1,7 @@
-Julie
+# Julie
 ===================
 
-# Julie, Bot de musique Discord.
+Julie, Bot de musique Discord.
 
 # Presentation
 Bienvenue dans sur le git de Julie !
