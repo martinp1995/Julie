@@ -16,8 +16,6 @@ const opts = {
 const fonctions = {
 
      enqueue(guild) {    
-
-
         if (!guild) return;
         if (typeof guild == 'object') guild = guild.id
         if (queues[guild]) return queues[guild]
@@ -51,7 +49,7 @@ const fonctions = {
                     "title": results[0].title,
                     "requested": msg.author.username,
                     "toplay": stream,
-		            "link": results[0].link,
+		    "link": results[0].link,
                 })
                   
             msg.channel.send(":satellite_orbital: **Ajout à la queue** - `" + queue[queue.length - 1].title + "`");
