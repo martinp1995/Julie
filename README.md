@@ -1,5 +1,4 @@
 # Julie
-===================
 
 Julie, Bot de musique Discord.
 
