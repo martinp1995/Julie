@@ -1,4 +1,3 @@
-const fs = require("fs-extra")
 const prefix = ["."];
 
 module.exports = async (client, msg) => {
