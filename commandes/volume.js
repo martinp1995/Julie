@@ -11,7 +11,7 @@ module.exports.run = async (client, msg) => {
 
 		if(!msg.guild.voiceConnection.player.dispatcher || msg.guild.voiceConnection.player.dispatcher.paused) return msg.channel.send(':warning: Le bot ne joue pas !');
 
-        let args = msg.content.split(" ").slice(1);
+        let args = msg.content.split(" ");
 
     if (parseInt(args[1]) > 100) return msg.channel.send(":warning: Le volume est déjà à son maximum !");
 
