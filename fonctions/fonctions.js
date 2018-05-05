@@ -12,7 +12,7 @@ let queues = {};
 const opts = {
     part: 'snippet',
     maxResults: 3,
-    key: "AIzaSyAkC9g9W5CSarCaLVJqDNkQ0n_U6tldxIk"
+    key: process.env.YOUTUBE_API_KEY
 }
 
 const fonctions = {
@@ -57,9 +57,9 @@ const fonctions = {
                     "publication": results[0].publishedAt,
                     "channelTitle": results[0].channelTitle,
                     "description": results[0].description,
-                    "thumbnails": results[0].thumbnails.url,
+                    "thumbnails": results[0].thumbnails.default.url,
                 })
-                  
+                
             msg.channel.send(":satellite_orbital: **Ajout à la queue** - `" + queue[queue.length - 1].title + "`");
 		    
             if (test) {
@@ -77,12 +77,12 @@ const fonctions = {
         .setThumbnail(queue[0].thumbnails) 
         .setColor(0xFF0000)
         .addField(":bust_in_silhouette: Auteur", queue[0].channelTitle)
-        .addField(":notepad_spiral: Description", queue[0].description)
+        .addField(":notepad_spiral: Description", (queue[0].description ? queue[0].description : "**Pas de description**"))
         .addField(":date: Date de publication", queue[0].publication)
         .addField(":link: Lien", queue[0].link)
         .setFooter("demandé par @" + queue[0].requested);
 
-            msg.channel.send(":headphones: En joue:", embed);
+            msg.channel.send("**:headphones: En joue:**", embed);
 
             dispatcher = msg.guild.voiceConnection.playStream(queue[0].toplay)
 
