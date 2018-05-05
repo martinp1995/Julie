@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+const client = require('../index.js');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
 var search = require('youtube-search');
@@ -10,12 +12,14 @@ let queues = {};
 const opts = {
     part: 'snippet',
     maxResults: 3,
-    key: process.env.YOUTUBE_API_KEY
+    key: "AIzaSyAkC9g9W5CSarCaLVJqDNkQ0n_U6tldxIk"
 }
 
 const fonctions = {
 
      enqueue(guild) {    
+
+
         if (!guild) return;
         if (typeof guild == 'object') guild = guild.id
         if (queues[guild]) return queues[guild]
@@ -49,7 +53,11 @@ const fonctions = {
                     "title": results[0].title,
                     "requested": msg.author.username,
                     "toplay": stream,
-		    "link": results[0].link,
+		            "link": results[0].link,
+                    "publication": results[0].publishedAt,
+                    "channelTitle": results[0].channelTitle,
+                    "description": results[0].description,
+                    "thumbnails": results[0].thumbnails.url,
                 })
                   
             msg.channel.send(":satellite_orbital: **Ajout à la queue** - `" + queue[queue.length - 1].title + "`");
@@ -64,7 +72,17 @@ const fonctions = {
             
             if (!msg.guild.voiceConnection) return msg.channel.send(":x: Je ne suis pas connecté");
 
-            msg.channel.send(":headphones: **En joue** - `" + queue[0].title + "` | demandé par `" + queue[0].requested + "`\n" + queue[0].link);
+            let embed = new Discord.RichEmbed()
+        .setAuthor(`${client.user.username} - MUSIQUE`)
+        .setThumbnail(queue[0].thumbnails) 
+        .setColor(0xFF0000)
+        .addField(":bust_in_silhouette: Auteur", queue[0].channelTitle)
+        .addField(":notepad_spiral: Description", queue[0].description)
+        .addField(":date: Date de publication", queue[0].publication)
+        .addField(":link: Lien", queue[0].link)
+        .setFooter("demandé par @" + queue[0].requested);
+
+            msg.channel.send(":headphones: En joue:", embed);
 
             dispatcher = msg.guild.voiceConnection.playStream(queue[0].toplay)
 
