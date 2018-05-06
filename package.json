@@ -1,6 +1,6 @@
 {
   "name": "Julie",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "BOT Discord musique crée par Sworder",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,12 @@
     "erlpack": "github:hammerandchisel/erlpack",
     "ffmpeg-binaries": "^3.2.2-3",
     "fs": "0.0.1-security",
+    "fs-extra": "^6.0.0",
+    "moment": "^2.22.1",
     "node-opus": "^0.2.7",
     "opusscript": "0.0.4",
     "snekfetch": "^3.6.0",
-    "youtube-search": "^1.0.10",
+    "youtube-search": "^1.1.0",
     "ytdl-core": "github:fent/node-ytdl-core"
   },
   "devDependencies": {}
