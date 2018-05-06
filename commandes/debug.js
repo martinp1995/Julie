@@ -26,6 +26,6 @@ msg.channel.send(embed);
 
 module.exports.help = {
     name : "debug",
-    usage: "-debug",
+    usage: "debug",
     description: "Donne les informations et les statistiques du bot"
 }
