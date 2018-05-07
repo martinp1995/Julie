@@ -15,7 +15,6 @@ const radio = {
                 
                 if (!msg.member.voiceChannel) return msg.channel.send(':warning: Vous devez être connecté dans un salon-vocal !')
                 
-                msg.member.voiceChannel.join()
             }
 
             let args = msg.content.split(" ").slice(1).join(" ").toLowerCase();
