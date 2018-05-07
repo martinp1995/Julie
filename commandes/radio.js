@@ -18,7 +18,7 @@ const radio = {
                 msg.member.voiceChannel.join()
             }
 
-            let args = msg.content.split(" ").slice(1).join(" ")
+            let args = msg.content.split(" ").slice(1).join(" ").toLowerCase();
              
       if (!args) return msg.channel.send(':warning: Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**')
 
