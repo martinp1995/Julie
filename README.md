@@ -14,4 +14,4 @@ Ce BOT musique possède une file d'attente. Pratique pour rester tranquille dans
 Vous pouvez me faire un don sur cette adresse :)
 https://paypal.me/TheShooter71  
 
-<embed src='https://bots-discord.tk/api/widget/440814309677858816.svg' alt='Julie'/>
+<img src='https://bots-discord.tk/api/widget/440814309677858816.svg'>
