@@ -12,7 +12,7 @@ Ce BOT musique possède une file d'attente. Pratique pour rester tranquille dans
 # Utilisation
 Pour utiliser le bot, une autorisation donnée par le developpeur (ici moi même) est requise.
 Il n'y aura aucune aide concernant le fonctionnement du bot.
-Si vous avez reçu l'autorisation d'utiliser le bot, veuillez mettre le nom du bot et celui du devloppeur dans les crédis du bot.
+Si vous avez reçu l'autorisation d'utiliser le bot, veuillez mettre le nom du bot et celui du developpeur dans les crédis de votre bot.
 
 # Faire un don
 
