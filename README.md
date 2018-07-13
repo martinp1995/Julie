@@ -8,7 +8,12 @@ https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&p
 Bienvenue sur le git de Julie !
 Julie est un bot de musique Discord crée le 1er Mai 2018, elle a pour but de faire abandonner les vieux bots tel que ErisBOT et encore pleins d'autres !
 Ce BOT musique possède une file d'attente. Pratique pour rester tranquille dans son jeu entrain d'écouter sa musique sans avoir à remettre sa musique à la fin.
-  
+
+# Utilisation
+Pour utiliser le bot, une autorisation donnée par le developpeur (ici moi même) est requise.
+Il n'y aura aucune aide concernant le fonctionnement du bot.
+Si vous avez reçu l'autorisation d'utiliser le bot, veuillez mettre le nom du bot et celui du devloppeur dans les crédis du bot.
+
 # Faire un don
 
 Vous pouvez me faire un don sur cette adresse :)
