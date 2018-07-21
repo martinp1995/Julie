@@ -1,6 +1,6 @@
 # Julie
 
-Julie, Bot de musique Discord crée par Sworder (surnom actuelle sur Discord: Erisse#7460)
+Julie, Bot de musique Discord crée par Sworder
 Vous pouvez inviter le bot avec ce-lien:
 https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1
 
