@@ -1,6 +1,7 @@
 # Julie
 
 Julie, Bot de musique Discord crée par Sworder.
+
 Vous pouvez inviter le bot avec ce-lien:
 https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1
 
@@ -17,6 +18,7 @@ Si vous avez reçu l'autorisation d'utiliser le bot, veuillez mettre le nom du b
 # Faire un don
 
 Vous pouvez me faire un don sur cette adresse :)
+
 https://paypal.me/TheShooter71  
 
 # bots-discord.tk 
