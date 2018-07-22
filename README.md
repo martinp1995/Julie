@@ -1,4 +1,4 @@
-# Julie
+# Julie v1
 
 Julie, Bot de musique Discord crée par Sworder.
 
