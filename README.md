@@ -24,3 +24,5 @@ https://paypal.me/TheShooter71
 # bots-discord.tk 
 
 Vous pouvez visiter la page de Julie ici: https://bots-discord.tk/bots/440814309677858816
+
+[![Divine Discord Bot List](https://bots-discord.tk/api/widget/440814309677858816.svg)](https://bots-discord.tk/bots/440814309677858816)
