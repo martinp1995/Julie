@@ -21,7 +21,7 @@ Vous pouvez me faire un don sur cette adresse :)
 
 https://paypal.me/TheShooter71  
 
-# bots-discord.tk 
+# divinediscordbots.com 
 
 Vous pouvez visiter la page de Julie ici: https://divinediscordbots.com/bots/440814309677858816
 
