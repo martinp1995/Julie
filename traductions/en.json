@@ -1,0 +1,124 @@
+{
+  "locale": "en-GB",
+  "currency": "GBP",
+  "strings": {
+    "⚠ Je ne suis pas connectée dans un salon-vocal !": "⚠ I'm not connected in vocal !",
+	  "⚠ Je n'ai pas la permission de `rejoindre` ou `parler` dans ce salon !": "⚠ I doesn't have the `join` or `speak` permission in this channel !",
+  	"⚠ Vous devez être connecté dans un salon-vocal !": "⚠ You must be connected in vocal !",
+  	"⚠ Il n'y a plus **aucune** musiques dans la queue !": "⚠ There are **no more** songs in the queue !",
+    "⚠ Il n'y a **aucune** musiques dans la queue !": "⚠ There are **no** songs in the queue !",
+  	"❌ Une erreur est survenue lors de la récupération des informations de la vidéo": "❌ An error has occurred while get informations of video",
+  	"demandé par @{0}": "Requested by @{0}",
+  	"🎧 Actuellement en joue:": "🎧 Now playing:",
+    "🎧 En joue:": "🎧 Now playing:",
+  	"🛰 Ajout à la queue - `{0}`": "🛰 Added to queue - `{0}`",
+  	"⚠ Le bot n'a pas reçu l'ordre de jouer !": "⚠ The bot is not playing !",
+  	"⚠ Le bot ne joue pas !": "⚠ The bot is not playing !",
+  	"⚠ Veuillez spécifier votre musique !": "⚠ Please, give me an title of music !",
+  	"⚠ Veuillez spécifier un lien de playlist YouTube !": "⚠ Please, give me an link of playlist YouTube !",
+  	"❌ Je ne suis pas connecté": "❌ I'm not connected",
+  	"❌ Video non trouvée ou une erreur s'est produite": "❌ Video not found or an error has occurred",
+  	"⚠ Aucune musique trouvée !": "⚠ No music found !",
+  	"🔍 Résultat de la recherche pour: `{0}`": "🔍 Results for: `{0}`",
+  	"🔍 J'ai trouvé plus de **{0}** résultats pour: `{1}`": "🔍 I found **{0}** results for: `{1}`",
+  	"\n\nVeuillez entrer votre choix, taper `annuler` pour annuler.": "\n\nChoose your music, type `annuler` to cancel.",
+  	"✅ Selection annulée": "✅ Selection cancelled",
+  	"⚠ Ceci n'est pas un choix valide": "⚠ This is not a valid choice",
+  	"⚠ Ce choix ne fait pas parti de la selection": "⚠ This choice is unavailable",
+  	"⚠ Je n'ai pas réussi à récupérer vôtre choix": "⚠ I failed to get your choice",
+  	"❌ Aucune playlist trouvée, pour ajouter une playlist faites: `.playlist <id de la playlist>`": "❌ No playlist found, to add an playlist, type: `.playlist <link of playlist>`",
+  	"🛰 Playlist ajoutée à la queue avec succès": "🛰 Successfully added playlist to queue",
+  	"❌ Une erreur est survenue lors du chargement de la playlist, des vidéos/musiques ne sont donc pas présente !": "❌ An error occurred while loading the playlist, some videos/music are not present",
+    "Lecture": "Now playing",
+    "❌ Une erreur est survenue lors de la lecture": "❌ An error occured while loading the music",
+    "J'ai quitté le salon car vous m'avez laissé toute seule 😠": "I left the channel because you left me alone 😠",
+    "Durée": "Time",
+
+  	"🗑 La file d'attente a été supprimée": "🗑 The queue has been deleted",
+
+
+  	"Nombre de commandes: **{0}**\n\nVoici la liste des commandes:": "Command count: **{0}**\n\nHere's the list of my commands",
+  	"{0} © Créé par Sworder": "{0} © Created by Sworder",
+
+
+  	"🎶 Voici le lien pour m'inviter: <https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1>": "🎶 Here's my invite link to invite me: <https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1>",
+  	"✅ Je suis bien sortie du salon-vocal": "✅ I successfully leaved the channel",
+
+
+	  "• Auteur": "• Author",
+	  "• Description": "• Description",
+	  "• Date de publication": "• Published at",
+	  "• Temps": "• Time",
+	  "• Nombre de vues": "• View count",
+	  "• Lien": "• Link",
+
+
+	  "⏸ J'ai mis votre musique en pause": "⏸ Music is now paused",
+
+    "{0}. {1} | Ajouté par {2}\n": "{0}. {1} | Requested by {2}\n",
+	  "🌐 Liste de la file d'attente:\n```{0}```": "🌐 Here's the queue:\n```{0}```",
+
+
+	  "⚠ Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**": "⚠ Please give me an title of Radio, here's the list of available radio: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**",
+	  "⚠ Radio non-valide, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**": "⚠ This radio is unavailable, here's the list of available radio: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**",
+	  "• Radio": "• Radio",
+	  "📻 En joue:": "📻 Now playing:",
+
+
+	  "▶ Je recommence à rejouer votre musique": "▶ I restart playing the song",
+
+
+	  "✅ La file d'attente a été mélangée": "✅ The queue is now shuffled",
+
+
+	  "⏩ Changement de la musique en cours !": "⏩ Skipping...",
+
+
+	  "✅ Je me suis bien arrêté": "✅ I successfully stopped music and queue",
+
+
+	  "🎧 Position du temps actuelle dans la musique: `{0}`": "🎧 Current time position: `{0}`",
+
+
+	  "⚠ Le volume est déjà à son maximum !": "⚠ Volume is already at its maximum !",
+    "🔊 Le volume est désormais à `{0}/100`": "🔊 Volume is now at `{0}/100`",
+
+
+    "• Nombre de serveurs": "• Server count",
+    "• Nombre d'utilisateurs": "• Member count",
+    "• Nombre de connections": "• Connection count",
+    "• Developpeur du bot": "• Developer",
+    "• Dernière connexion": "• Uptime",
+
+    "▸ Utilitaire": "▸ Utility",
+    "▸ Musique": "▸ Music",
+
+    "🌐 Langues disponibles:": "🌐 Language available:",
+    "❌ Ce choix n'est pas valable": "❌ This choice is unavailable",
+    "{0} La langue a bien été changée": "{0} La langue a bien été changée",
+
+    "Voir la liste des commandes du bot": "Show commands list",
+    "Obtenir mon lien d'invitation": "Get my invite link",
+    "Faire sortir le bot du salon-vocal": "Take the bot out of the vocal channel",
+    "Commande réservée au propriétaire du bot": "Command reserved for owner of the bot",
+    "Voir la musique actuellement en joue": "Show music now playing",
+    "Mettre la musique en pause": "Pause music",
+    "Donner l'ordre au bot de jouer votre musique": "To listen to your music",
+    "Donner l'ordre au bot de jouer votre playlist": "To listen to your playlist",
+    "Voir la file d'attente de musique du serveur": "Show current queue",
+    "Donner l'ordre au bot d'écouter la radio": "To listen to the radio",
+    "Faire répéter la première musique de la file d'attente": "Repeat the first music in the queue",
+    "Remettre la musique en joue": "Resume music",
+    "Passer à la musique suivante": "Skip music",
+    "Faire stop la queue et la mise en marche de la musique": "Stop music and queue",
+    "Voir la position du temps actuelle de la musique actuellement en joue": "Show current time position of the music",
+    "Augmenter/Baisser le volume de la musique": "Up/Down the volume of the music",
+    "Mélanger l'ordre des musiques de la file d'attente": "Mix the order of the songs in the queue",
+    "Rechercher une musique sur YouTube": "Search any music in YouTube",
+    "Supprimer la file d'attente de musique du serveur": "Delete the music queue from the server",
+    "Donne les informations et les statistiques du bot": "Give information and statistics of the bot",
+    "Changer la langue du bot": "Change my language",
+    "Donner l'ordre au bot de se connecter à votre salon": "To join your vocal channel"
+
+   }
+}

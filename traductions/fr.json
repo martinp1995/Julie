@@ -1,0 +1,124 @@
+{
+  "locale": "fr-FR",
+  "currency": "EUR",
+  "strings": {
+	  "⚠ Je ne suis pas connectée dans un salon-vocal !": "⚠ Je ne suis pas connectée dans un salon-vocal !",
+	  "⚠ Je n'ai pas la permission de `rejoindre` ou `parler` dans ce salon !": "⚠ Je n'ai pas la permission de `rejoindre` ou `parler` dans ce salon !",
+  	"⚠ Vous devez être connecté dans un salon-vocal !": "⚠ Vous devez être connecté dans un salon-vocal !",
+  	"⚠ Il n'y a plus **aucune** musiques dans la queue !": "⚠ Il n'y a plus **aucune** musiques dans la queue !",
+    "⚠ Il n'y a **aucune** musiques dans la queue !": "⚠ Il n'y a **aucune** musiques dans la queue !",
+  	"❌ Une erreur est survenue lors de la récupération des informations de la vidéo": "❌ Une erreur est survenue lors de la récupération des informations de la vidéo",
+  	"demandé par @{0}": "demandé par @{0}",
+  	"🎧 Actuellement en joue:": "🎧 Actuellement en joue:",
+    "🎧 En joue:": "🎧 En joue:",
+  	"🛰 Ajout à la queue - `{0}`": "🛰 Ajout à la queue - `{0}`",
+  	"⚠ Le bot n'a pas reçu l'ordre de jouer !": "⚠ Le bot n'a pas reçu l'ordre de jouer !",
+  	"⚠ Le bot ne joue pas !": "⚠ Le bot ne joue pas !",
+  	"⚠ Veuillez spécifier votre musique !": "⚠ Veuillez spécifier votre musique !",
+  	"⚠ Veuillez spécifier un lien de playlist YouTube !": "⚠ Veuillez spécifier un lien de playlist YouTube !",
+  	"❌ Je ne suis pas connecté": "❌ Je ne suis pas connecté",
+  	"❌ Video non trouvée ou une erreur s'est produite": "❌ Video non trouvée ou une erreur s'est produite",
+  	"⚠ Aucune musique trouvée !": "⚠ Aucune musique trouvée !",
+    "🔍 Résultat de la recherche pour: `{0}`": "🔍 Résultat de la recherche pour: `{0}`",
+    "🔍 J'ai trouvé plus de **{0}** résultats pour: `{1}`": "🔍 J'ai trouvé plus de **{0}** résultats pour: `{1}`",
+  	"\n\nVeuillez entrer votre choix, taper `annuler` pour annuler.": "\n\nVeuillez entrer votre choix, taper `annuler` pour annuler.",
+  	"✅ Selection annulée": "✅ Selection annulée",
+  	"⚠ Ceci n'est pas un choix valide": "⚠ Ceci n'est pas un choix valide",
+  	"⚠ Ce choix ne fait pas parti de la selection": "⚠ Ce choix ne fait pas parti de la selection",
+  	"⚠ Je n'ai pas réussi à récupérer vôtre choix": "⚠ Je n'ai pas réussi à récupérer vôtre choix",
+  	"❌ Aucune playlist trouvée, pour ajouter une playlist faites: `.playlist <id de la playlist>`": "❌ Aucune playlist trouvée, pour ajouter une playlist faites: `.playlist <id de la playlist>`",
+  	"🛰 Playlist ajoutée à la queue avec succès": "🛰 Playlist ajoutée à la queue avec succès",
+  	"❌ Une erreur est survenue lors du chargement de la playlist, des vidéos/musiques ne sont donc pas présente !": "❌ Une erreur est survenue lors du chargement de la playlist, des vidéos/musiques ne sont donc pas présente !",
+    "Lecture": "Lecture",
+    "❌ Une erreur est survenue lors de la lecture": "❌ Une erreur est survenue lors de la lecture",
+    "J'ai quitté le salon car vous m'avez laissé toute seule 😠": "J'ai quitté le salon car vous m'avez laissé toute seule 😠",
+    "Durée": "Durée",
+
+  	"🗑 La file d'attente a été supprimée": "🗑 La file d'attente a été supprimée",
+
+
+  	"Nombre de commandes: **{0}**\n\nVoici la liste des commandes:": "Nombre de commandes: **{0}**\n\nVoici la liste des commandes:",
+  	"{0} © Créé par Sworder": "{0} © Créé par Sworder",
+
+
+  	"🎶 Voici le lien pour m'inviter: <https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1>": "🎶 Voici le lien pour m'inviter: <https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&permissions=-1>",
+  	"✅ Je suis bien sortie du salon-vocal": "✅ Je suis bien sortie du salon-vocal",
+
+
+	  "• Auteur": "• Auteur",
+	  "• Description": "• Description",
+	  "• Date de publication": "• Date de publication",
+	  "• Temps": "• Temps",
+	  "• Nombre de vues": "• Nombre de vues",
+	  "• Lien": "• Lien",
+
+
+	  "⏸ J'ai mis votre musique en pause": "⏸ J'ai mis votre musique en pause",
+
+    "{0}. {1} | Ajouté par {2}\n": "{0}. {1} | Ajouté par {2}\n",
+	  "🌐 Liste de la file d'attente:\n```{0}```": "🌐 Liste de la file d'attente:\n```{0}```",
+
+
+	  "⚠ Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**": "⚠ Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**",
+	  "⚠ Radio non-valide, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**": "⚠ Radio non-valide, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**",
+	  "• Radio": "• Radio",
+	  "📻 En joue:": "📻 En joue:",
+
+
+	  "▶ Je recommence à rejouer votre musique": "▶ Je recommence à rejouer votre musique",
+
+
+	  "✅ La file d'attente a été mélangée": "✅ La file d'attente a été mélangée",
+
+
+	  "⏩ Changement de la musique en cours !": "⏩ Changement de la musique en cours !",
+
+
+	  "✅ Je me suis bien arrêté": "✅ Je me suis bien arrêté",
+
+
+	  "🎧 Position du temps actuelle dans la musique: `{0}`": "🎧 Position du temps actuelle dans la musique: `{0}`",
+
+
+	  "⚠ Le volume est déjà à son maximum !": "⚠ Le volume est déjà à son maximum !",
+	  "🔊 Le volume est désormais à `{0}/100`": "🔊 Le volume est désormais à `{0}/100`",
+
+
+    "• Nombre de serveurs": "• Nombre de serveurs",
+    "• Nombre d'utilisateurs": "• Nombre d'utilisateurs",
+    "• Nombre de connections": "• Nombre de connections",
+    "• Developpeur du bot": "• Developpeur du bot",
+    "• Dernière connexion": "• Dernière connexion",
+
+    "▸ Utilitaire": "▸ Utilitaire",
+    "▸ Musique": "▸ Musique",
+
+    "🌐 Langues disponibles:": "🌐 Langues disponibles:",
+    "❌ Ce choix n'est pas valable": "❌ Ce choix n'est pas valable",
+    "{0} La langue a bien été changée": "{0} My language is now changed",
+
+    "Voir la liste des commandes du bot": "Voir la liste des commandes du bot",
+    "Obtenir mon lien d'invitation": "Obtenir mon lien d'invitation",
+    "Faire sortir le bot du salon-vocal": "Faire sortir le bot du salon-vocal",
+    "Commande réservée au propriétaire du bot": "Commande réservée au propriétaire du bot",
+    "Voir la musique actuellement en joue": "Voir la musique actuellement en joue",
+    "Mettre la musique en pause": "Mettre la musique en pause",
+    "Donner l'ordre au bot de jouer votre musique": "Donner l'ordre au bot de jouer votre musique",
+    "Donner l'ordre au bot de jouer votre playlist": "Donner l'ordre au bot de jouer votre playlist",
+    "Voir la file d'attente de musique du serveur": "Voir la file d'attente de musique du serveur",
+    "Donner l'ordre au bot d'écouter la radio": "Donner l'ordre au bot d'écouter la radio",
+    "Faire répéter la première musique de la file d'attente": "Faire répéter la première musique de la file d'attente",
+    "Remettre la musique en joue": "Remettre la musique en joue",
+    "Passer à la musique suivante": "Passer à la musique suivante",
+    "Faire stop la queue et la mise en marche de la musique": "Faire stop la queue et la mise en marche de la musique",
+    "Voir la position du temps actuelle de la musique actuellement en joue": "Voir la position du temps actuelle de la musique actuellement en joue",
+    "Augmenter/Baisser le volume de la musique": "Augmenter/Baisser le volume de la musique",
+    "Mélanger l'ordre des musiques de la file d'attente": "Mélanger l'ordre des musiques de la file d'attente",
+    "Rechercher une musique sur YouTube": "Rechercher une musique sur YouTube",
+    "Supprimer la file d'attente de musique du serveur": "Supprimer la file d'attente de musique du serveur",
+    "Donne les informations et les statistiques du bot": "Donne les informations et les statistiques du bot",
+    "Changer la langue du bot": "Changer la langue du bot",
+    "Donner l'ordre au bot de se connecter à votre salon": "Donner l'ordre au bot de se connecter à votre salon"
+
+    }
+}
