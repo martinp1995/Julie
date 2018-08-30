@@ -11,17 +11,19 @@ const radio = {
     "rfm": "http://rfm-live-mp3-128.scdn.arkena.com/rfm.mp3",
     "bfm": "http://chai5she.cdn.dvmr.fr/bfmbusiness"
 }
-            if (!msg.guild.voiceConnection) {
+
+                if (!msg.member.voiceChannel) return msg.channel.send(client.I18n.translate`⚠ Vous devez être connecté dans un salon-vocal !`)
                 
-                if (!msg.member.voiceChannel) return msg.channel.send(':warning: Vous devez être connecté dans un salon-vocal !')
+                if(!msg.member.voiceChannel.joinable) return msg.channel.send(client.I18n.translate`⚠ Je n'ai pas la permission de \`rejoindre\` ou \`parler\` dans ce salon !`).catch(err => console.log(err));
                 
-            }
+                if(!msg.member.voiceChannel.speakable) return msg.channel.send(client.I18n.translate`⚠ Je n'ai pas la permission de \`rejoindre\` ou \`parler\` dans ce salon !`).catch(err => console.log(err));
+
 
             let args = msg.content.split(" ").slice(1).join(" ").toLowerCase();
              
-      if (!args) return msg.channel.send(':warning: Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**')
+      if (!args) return msg.channel.send(client.I18n.translate`⚠ Veuillez spécifier un nom de radio, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**`)
 
-        if(!radio[args]) return msg.channel.send(':warning: Radio non-valide, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**')
+        if(!radio[args]) return msg.channel.send(client.I18n.translate`⚠ Radio non-valide, voici la liste des radios: **franceinfo**, **nrj**, **rtl2**, **skyrock**, **rtl**, **rfm**, **bfm**`)
     
     msg.member.voiceChannel.join().then(connection => {
 
@@ -30,13 +32,13 @@ const radio = {
             connection.playStream(res); 
 
      let embed = new Discord.RichEmbed()
-        .setAuthor(args)
-        .setColor(0xFF0000)
-        .addField(":radio: Radio", args)
-        .addField(":link: Lien", radio[args])
-        .setFooter("demandé par @" + msg.author.username);
+        .setAuthor(`${client.user.username} FM`, client.user.avatarURL)
+        .setColor(0xBCFF78)
+        .addField(client.I18n.translate`• Radio`, "`"+args+"`")
+        .addField(client.I18n.translate`• Lien`, "`"+radio[args]+"`")
+        .setFooter(client.I18n.translate`demandé par @${msg.author.username}`);
 
-     msg.channel.send("**:radio: En joue:**", embed);
+     msg.channel.send(client.I18n.translate`📻 En joue:`, embed);
  
           });
 
@@ -47,5 +49,6 @@ const radio = {
 module.exports.help = {
     name : "radio",
     usage: "radio <nom de radio>",
-    description: "Donner l'ordre au bot d'écouter la radio"
+    description: "Donner l'ordre au bot d'écouter la radio",
+    type: "musique"
 }

@@ -1,5 +1,6 @@
 module.exports = async (client) => {
 
-console.log('Julie en ligne');
- client.user.setPresence({ game: { name: ".help - BOT Musique crée par Sworder"}});
+console.log(`${client.user.username} en ligne`);
+
+ client.user.setPresence({ game: { name: `${client.config.BOT_PREFIX}help pour voir mes commandes !`}});
 }

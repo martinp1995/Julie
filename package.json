@@ -1,6 +1,6 @@
 {
   "name": "Julie",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "BOT Discord musique crée par Sworder",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,19 @@
   "author": "Sworder",
   "license": "GPL-3.0",
   "dependencies": {
+    "cleverbot.io": "^1.0.4",
     "discord.js": "^11.3.2",
     "erlpack": "github:hammerandchisel/erlpack",
     "ffmpeg-binaries": "^3.2.2-3",
     "fs": "0.0.1-security",
-    "fs-extra": "^6.0.0",
     "moment": "^2.22.1",
+    "node-i18n": "github:eslachance/node-i18n",
     "node-opus": "^0.2.7",
     "opusscript": "0.0.4",
+    "quick.db": "^6.3.2",
     "snekfetch": "^3.6.0",
-    "youtube-search": "^1.1.0",
-    "ytdl-core": "github:fent/node-ytdl-core"
+    "youtube-search": "^1.1.1",
+    "ytdl-core": "^0.20.2"
   },
   "devDependencies": {}
 }

@@ -28,23 +28,18 @@ Progress[Math.round(Progress.length*((msg.guild.voiceConnection.player.dispatche
         .setAuthor(queue[0].title)
         .setThumbnail(queue[0].thumbnails) 
         .setColor(0xBCFF78)
-        .addField(client.I18n.translate`• Auteur`, "`"+queue[0].channelTitle+"`")
-        .addField(client.I18n.translate`• Description`, "`"+(queue[0].description ? queue[0].description : "**Pas de description**")+"`")
-        .addField(client.I18n.translate`• Date de publication`, "`"+queue[0].publication+"`")
         .addField(client.I18n.translate`• Temps`, (info ? `${Math.floor(msg.guild.voiceConnection.player.dispatcher.time / 60000)}:${Math.floor((msg.guild.voiceConnection.player.dispatcher.time % 60000)/1000) <10 ? '0'+Math.floor((msg.guild.voiceConnection.player.dispatcher.time % 60000)/1000) : Math.floor((msg.guild.voiceConnection.player.dispatcher.time % 60000)/1000)}/${client.fonctions.time(info.length_seconds)}\n${Progress.join("")}` : "Aucune durée trouvée"), true)
-        .addField(client.I18n.translate`• Nombre de vues`,(info ? info.view_count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")  : "Aucun nombres de vues trouvé"), true)
-        .addField(client.I18n.translate`• Lien`, "`"+queue[0].link+"`")
         .setFooter(client.I18n.translate`demandé par @${queue[0].requested}`);
     
-            msg.channel.send(client.I18n.translate`🎧 Actuellement en joue:`, embed);
+            msg.channel.send(client.I18n.translate`🎧 Position du temps actuelle dans la musique: \`${queue[0].title}\``, embed);
     })               
 
 }
 
 module.exports.help = {
-    name : "np",
-    usage: "np",
-    description: "Voir la musique actuellement en joue",
+    name : "time",
+    usage: "time",
+    description: "Voir la position du temps actuelle de la musique actuellement en joue",
     type: "musique"
 }
 

@@ -4,7 +4,7 @@ module.exports.run = async (client, msg) => {
 
             if (!msg.guild.voiceConnection) {
                 
-                if (!msg.member.voiceChannel) return msg.channel.send(':warning: Vous devez être connecté dans un salon-vocal !')
+                if (!msg.member.voiceChannel) return msg.channel.send(client.I18n.translate`⚠ Vous devez être connecté dans un salon-vocal !`)
                 
             }
 
@@ -12,7 +12,7 @@ module.exports.run = async (client, msg) => {
             
             let queue = client.fonctions.enqueue(msg.guild.id);
 
-                msg.channel.send(`:white_check_mark: Je suis bien sortie du salon-vocal`);
+                msg.channel.send(client.I18n.translate`✅ Je suis bien sortie du salon-vocal`);
 
                 if (queue.length == 0) return; 
 
@@ -24,5 +24,6 @@ module.exports.run = async (client, msg) => {
 module.exports.help = {
     name : "leave",
     usage: "leave",
-    description: "Faire sortir le bot du salon-vocal"
+    description: "Faire sortir le bot du salon-vocal",
+    type: "musique"
 }

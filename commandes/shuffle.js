@@ -11,23 +11,25 @@ module.exports.run = async (client, msg) => {
 
             if(!msg.guild.voiceConnection.player.dispatcher || msg.guild.voiceConnection.player.dispatcher.paused) return msg.channel.send(client.I18n.translate`⚠ Le bot ne joue pas !`);
 
-                msg.guild.voiceConnection.player.dispatcher.end()
+          let queue = client.fonctions.enqueue(msg.guild.id);
             
-            let queue = client.fonctions.enqueue(msg.guild.id);
+            if (queue.length == 0) return msg.channel.send(client.I18n.translate`⚠ Il n'y a **aucune** musiques dans la queue !`);
                 
-                msg.channel.send(client.I18n.translate`✅ Je me suis bien arrêté`);
+                msg.channel.send(client.I18n.translate`✅ La file d'attente a été mélangée`);
 
-                if (queue.length == 0) return;
+                client.fonctions.shuffle(client.fonctions.enqueue(msg.guild.id))
+                
 
-                for (var i = queue.length - 1; i >= 0; i--) {
-                    queue.splice(i, 1);
-                }
 }
 
 module.exports.help = {
-    name : "stop",
-    usage: "stop",
-    description: "Faire stop la queue et la mise en marche de la musique",
+    name : "shuffle",
+    usage: "shuffle",
+    description: "Mélanger l'ordre des musiques de la file d'attente",
     type: "musique"
 }
 
+
+                
+
+            

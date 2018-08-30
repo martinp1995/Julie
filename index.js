@@ -4,7 +4,14 @@ const client = new Discord.Client({
   fetchAllMembers: true,
 });
 
-var fs = require('fs');
+const fs = require('fs');
+
+var config = require("./config.json");
+
+client.I18n = require('node-i18n');
+client.languages = {};
+client.db = require("quick.db");
+client.config = config;
 
 client.commands = new Discord.Collection();
 
@@ -46,6 +53,18 @@ fs.readdir('./fonctions/', (err, files) => {
   });
 });
 
-client.login(process.env.TOKEN);
+fs.readdir('./traductions/', (err, files) => {
+  if (err) return console.log(err);
+  console.log(`Nombre de traductions en chargement ${files.length}`);
+
+  files.forEach((f) => {
+    const translation = require(`./traductions/${f}`);
+    client.languages[f.split('.')[0]] = translation;
+  });
+
+  client.I18n.init({ bundles: client.languages, defaultCurrency: 'EUR' });
+});
+
+client.login(config.BOT_TOKEN);
 
 module.exports = client;
