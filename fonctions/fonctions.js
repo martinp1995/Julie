@@ -16,7 +16,7 @@ let queues = {};
 const opts = {
     part: 'snippet',
     maxResults: 5,
-    key: "AIzaSyAkC9g9W5CSarCaLVJqDNkQ0n_U6tldxIk",
+    key: process.env.YOUTUBE_API_KEY,
     type: 'video'
 }
 
