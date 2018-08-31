@@ -7,7 +7,7 @@ https://discordapp.com/oauth2/authorize?client_id=440814309677858816&scope=bot&p
 
 Vous pouvez visiter la page de Julie ici: https://divinediscordbots.com/bots/440814309677858816
 
-[![Divine Discord Bot List](https://divinediscordbots.com/api/widget/440814309677858816.svg)](https://divinediscordbots.com/bots/440814309677858816)
+[![Julie](https://divinediscordbots.com/api/widget/440814309677858816.svg)](https://divinediscordbots.com/bots/440814309677858816)
 
 # Presentation
 Bienvenue sur le git de Julie !
