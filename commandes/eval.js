@@ -3,16 +3,12 @@ const Discord = require("discord.js");
 
 module.exports.run = async (client, msg) => {
 
-let ctx = msg;
-
-var truc = "Promise { <pending> }";
-
 var util = require("util");
 
 let args = msg.content.split(" ").slice(1);
 let code = args.join(' ');
 
-  if (msg.author.id != '240508683455299584') return;
+  if (msg.author.id != 'ur id') return;
 
   try {
 
@@ -22,7 +18,7 @@ let code = args.join(' ');
                     depth: 1
                 })
 
-                 str = `${str.replace(new RegExp(`${client.token}|${truc}`, "g"), "Tu t'es pas fail, t'es moins con")}`;
+                 str = `${str.replace(new RegExp(`${client.token}`, "g"), "client.token")}`;
 
                 if(str.length > 1900) {
                     str = str.substr(0, 1900)
