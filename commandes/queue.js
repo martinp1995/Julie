@@ -16,8 +16,8 @@ module.exports.run = async (client, msg) => {
             if (queue.length == 0) return msg.channel.send(client.I18n.translate`⚠ Il n'y a **aucune** musiques dans la queue !`);
             
             let text = '';
-            for (let i = 0; i < queue.length; i++) {
-                text += client.I18n.translate`${(i + 1)}. ${queue[i].title} | Ajouté par ${queue[i].requested}\n`
+            for (let i = 1; i < queue.length; i++) {
+                text += client.I18n.translate`${(i)}. ${queue[i].title} | Ajouté par ${queue[i].requested}\n`
             };
 
              if(text.length > 1900) {
