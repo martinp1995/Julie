@@ -78,7 +78,7 @@ const fonctions = {
                     "videoId": song.id,
                 })
                 
-            msg.channel.send(client.I18n.translate`🛰 Ajout à la queue - \`${queue[queue.length - 1].title}\``);
+           if (queue.length === 2) msg.channel.send(client.I18n.translate`🛰 Ajout à la queue - \`${queue[queue.length - 1].title}\``);
 		    
             if (test) {
                     setTimeout(function() {
